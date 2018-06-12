@@ -16,7 +16,7 @@ Have a read of the [Dockerfile](Dockerfile) for the actual details.
 Coming from a pretty stock node 8.11 image:
 
 1. The gtk xvfb and other OS level dependancies are installed.
-2. Cypress is installed non-globally to the `/cypress`
+2. Cypress is installed non-globally to the `/cypress` folder
 3. The `/cypress/node_modules/.bin` folder is added to `PATH`
 4. An os level environment variable is set to stop the cypress binaries from being installed in node projects
 
@@ -58,4 +58,4 @@ Self explanatory really.
 
 ## Licence
 
-As per the [Licence file](licence.md)
+As per the [Licence file](Licence.md)
