@@ -1,6 +1,6 @@
 # Node and cypress in a docker container
 
-## Why?
+## Why
 
 Because it will speed up development/testing/deployment to be able to have the
 cypres binary download outside the `npm -i` call.
@@ -21,6 +21,7 @@ Coming from a pretty stock node 8.11 image:
 4. An os level environment variable is set to stop the cypress binaries from being installed in node projects
 
 ## How to use
+
 ### 1. Using docker `FROM`
 
 This is an example Dockerfile, the image has been pushed to `misterkoz/node8.11-cypress2.1.0`
@@ -48,13 +49,17 @@ CMD ["start"]
 
 ```
 
-### 2. Copy and paste this docker file into the start of yours!
+### 2. Copy and paste this docker file into the start of yours
 
 Self explanatory really.
 
-## Todo:
-* build example with unit tests
-* automate in travis
+## Todos
+
+* finish example with some hellow world stuff
+* add cypress tests
+* automate cypress test in travis
+* show off
+* etc
 
 ## Licence
 
